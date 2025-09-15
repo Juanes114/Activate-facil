@@ -106,7 +106,7 @@ Activate-facil/
 
 4. Tu aplicación estará disponible en:
 
-    https://github.com/Juanes114/Activate-facil.git
+    https://juanes114.github.io/Activate-facil/
 
 ---
 
@@ -124,5 +124,9 @@ Activate-facil/
 Nombre: Juan Esteban Marulanda Zapata
 
 Materia: Sistemas Inteligentes
+<<<<<<< HEAD
 
 Año: 2025
+=======
+Año: 2025
+>>>>>>> 190b01c0184165e5cf8255b84d3a08856de30146

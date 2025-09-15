@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Actívate Fácil</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>💪 Actívate Fácil</h1>
+  <p class="subtitulo">Tu apoyo para mantenerte activo y tomar tus medicamentos a tiempo</p>
+
+  <!-- Sección de Actividad Física -->
+  <section id="actividad">
+    <h2>🏃 Actividad Física</h2>
+    <div id="actividadTexto">Presiona el botón para ver tu primera actividad</div>
+    <button id="btnActividad">Nueva Actividad</button>
+    <div id="mensajeActividad"></div>
+  </section>
+
+  <!-- Sección de Medicamentos -->
+  <section id="medicamentos">
+    <h2>💊 Recordatorio de Medicamentos</h2>
+    <form id="formMedicamento">
+      <input type="text" id="nombreMedicamento" placeholder="Nombre del medicamento" required>
+      <input type="time" id="horaMedicamento" required>
+      <input type="number" id="frecuenciaMedicamento" placeholder="Cada cuántas horas" min="1" required>
+      <button type="submit">Agregar</button>
+    </form>
+    <ul id="listaMedicamentos"></ul>
+    <div id="mensajeMedicamento"></div>
+  </section>
+
+  <!-- Modal para eliminar medicamento -->
+  <div id="modalEliminar" class="modal">
+    <div class="modal-contenido">
+      <h3>¿Por qué deseas eliminar este medicamento?</h3>
+      <div id="opcionesMotivo"></div>
+      <button id="cancelarEliminar">Cancelar</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

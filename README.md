@@ -67,7 +67,7 @@ Activate-facil/
 
 4. Tu aplicación estará disponible en:
 
-    https://github.com/Juanes114/Activate-facil.git
+    https://juanes114.github.io/Activate-facil/
 
 
 ## 👥 Público objetivo

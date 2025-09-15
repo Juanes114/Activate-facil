@@ -15,6 +15,42 @@ La herramienta combina recordatorios de **actividad física** y **medicación**,
 
 ---
 
+## 👥 Guía para cuidadores
+
+La siguiente sección explica **cómo un cuidador puede usar la aplicación con un adulto mayor** de manera segura:
+
+### 🏃 Actividad Física
+- Presionar el botón **“Nueva Actividad”** para mostrar una actividad física aleatoria.  
+- Leer junto con el adulto mayor la actividad y la frase motivacional que aparece.
+
+### 💊 Recordatorio de Medicamentos
+
+#### Agregar un medicamento
+1. Escribir el **nombre del medicamento**.  
+2. Seleccionar la **hora** de la primera toma.  
+3. Indicar la **frecuencia** en horas.  
+4. Presionar **Agregar**.  
+
+#### Ver medicamentos
+- Todos los medicamentos agregados se muestran en la lista de la sección.  
+
+#### Eliminar un medicamento
+1. Presionar el botón ❌ junto al medicamento que se desea eliminar.  
+2. Seleccionar el **motivo** de eliminación en el modal que aparece.  
+3. Confirmar.  
+4. La app mostrará un mensaje indicando cuál medicamento fue eliminado y el motivo.
+
+### ⏰ Recordatorios automáticos
+- La app revisa la hora cada minuto y muestra avisos cuando es hora de tomar un medicamento.  
+- El mensaje incluye el nombre del medicamento y una frase motivacional.
+
+### ✅ Buenas prácticas del cuidador
+- Leer y mostrar las actividades y recordatorios al adulto mayor.  
+- No modificar configuraciones ni perfiles.  
+- Mantener el navegador abierto para que los recordatorios se muestren correctamente.  
+
+---
+
 ## 🛠️ Tecnologías utilizadas
 
 - **HTML5** para la estructura.  
@@ -35,6 +71,8 @@ Activate-facil/
 └── README.md # Este documento
 ```
 
+---
+
 ## ⚡ Instalación local
 
 1. Clonar el repositorio:
@@ -50,6 +88,7 @@ Activate-facil/
 
 3. Abrir el archivo index.html en tu navegador (doble clic o abrir con Chrome/Edge/Firefox).
 
+---
 
 ## 🌍 Despliegue en GitHub Pages
 
@@ -69,6 +108,7 @@ Activate-facil/
 
     https://github.com/Juanes114/Activate-facil.git
 
+---
 
 ## 👥 Público objetivo
 
@@ -82,5 +122,7 @@ Activate-facil/
 📌 Autor
 
 Nombre: Juan Esteban Marulanda Zapata
+
 Materia: Sistemas Inteligentes
+
 Año: 2025
